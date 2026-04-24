@@ -1,2 +1,4 @@
-def green(name1):
-    return "Hello, "+ name1
+def green(name):
+    if not name:
+        return "Hello,Stranger"
+    return "Hello, "+ name
